@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedidos> 
+    <destinatario> Pedro Martin Martinez </destinatario> 
+    <articulo> Samsung Galaxy Tab A8 </articulo>
+    <direccion> Virgen de la cruz 2, séptimo piso, letra A </direccion> 
+    <localidad> Madrid </localidad>
+    <entrega> 17-10-2022 </entrega>
+</pedidos>

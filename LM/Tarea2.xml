@@ -1,0 +1,149 @@
+<!--Problema
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte Atletismo />
+        <nombre>Fermin Cacho</nombre>
+    <deportista>
+        <deporte Tenis />
+        <nombre>Rafael Nadal</nombre>
+    </deportista>
+        <deporte Baloncesto />
+        <nombre>Pau Gasol</nombre>
+    </deportista>
+</deportistas>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte>Atletismo</deporte>
+        <nombre>Fermin Cacho</nombre>
+    </deportista>
+    <deportista>
+        <deporte>Tenis</deporte>
+        <nombre>Rafael Nadal</nombre>
+    </deportista>
+    <deportista>
+        <deporte>Baloncesto</deporte>
+        <nombre>Pau Gasol</nombre>
+    </deportista>
+</deportistas>
+
+
+<!--Problema
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula>
+    <titulo>El señor de los anillos</titulo>
+    <director>Peter Jackson</director>
+</pelicula>
+<pelicula>
+    <director>George Lucas</director>
+    <titulo>Star Wars</titulo>
+</pelicula>
+<director/>Steven Spielberg</director>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>El señor de los anillos</titulo>
+        <director>Peter Jackson</director>
+    </pelicula>
+    <pelicula>
+        <director>George Lucas</director>
+        <titulo>Star Wars</titulo>
+    </pelicula>
+    <pelicula>
+        <director>Steven Spielberg</director>
+        <titulo>E.T.</titulo>
+    </pelicula>
+</peliculas>
+
+
+<!--Problema
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+    <entrada>
+        <nombre-completo>Rodrigo Castellano del Rio
+    </entrada>
+</agenda>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+    <entrada>
+        <nombre-completo>Rodrigo Castellano del Rio</nombre-completo>
+    </entrada>
+</agenda>
+
+
+<!--Problema
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <Titulo>XML primer tema</titulo>
+    <párrafo>El metalenguaje <abreviatura>XML</abreviatura>define como crear
+    lenguajes de marcas.</párrafo>
+    <párrafo>Las marcar se añaden a un documento de texto
+    para añadir información</párrafo>
+</texto>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <titulo>XML primer tema</titulo>
+    <párrafo>El metalenguaje <abreviatura>XML</abreviatura>define como crear
+    lenguajes de marcas.</párrafo>
+    <párrafo>Las marcar se añaden a un documento de texto
+    para añadir información</párrafo>
+</texto>
+
+
+<!--Problema
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL" licencia="MPL"/>
+    <programa nombre="OpenOficce.org" licencia="BSD"/>
+    <programa nombre="Wordpress" licencia="GPL"/>
+</programa>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="MPL"/>
+    <programa nombre="OpenOficce.org" licencia="BSD"/>
+    <programa nombre="Wordpress" licencia="GPL"/>
+</programa> 
+
+<!--Problema
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial>
+        <pais="España" />
+        <1982 />
+    </mundial>
+    <mundial>
+        <pais="Qatar" />
+        <año>2022 </año>
+    </mundial>
+</mundiales-de-futbol>-->
+
+<!--Solución-->
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial>
+        <pais>España</pais>
+        <año>1982</año>
+    </mundial>
+    <mundial>
+        <pais>Qatar</pais>
+        <año>2022</año>
+    </mundial>
+</mundiales-de-futbol>
+
+<!--Solución2-->
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial pais="España" año="1982"/>
+    <mundial pais="Qatar" año="2022"/>
+</mundiales-de-futbol>

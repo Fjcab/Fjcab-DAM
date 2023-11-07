@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menú>
+    <legumbres preparado="cocidos" calorias="1090">Garbanzos</legumbres>
+    <legumbres preparado="estofadas" calorias="690">Lentejas</legumbres>
+    <legumbres preparado="pintas" calorias="285">Alubias</legumbres>
+    <legumbres preparado="secos" calorias="346">Guisantes</legumbres>
+    <legumbres preparado="rehogadas" calorias="100">Habas</legumbres>
+    <legumbres preparado="fabada" calorias="1300">Judias</legumbres>
+    <frutas preparado="fresco" calorias="136">Aguacate</frutas>
+    <frutas preparado="fresco" calorias="84">Plátano</frutas>
+    <frutas preparado="fresco" calorias="58">Cerezas</frutas>
+    <frutas preparado="fresco" calorias="50">Piña</frutas>
+    <frutas preparado="fresco" calorias="70">Pera</frutas>
+    <frutas preparado="fresco" calorias="73">Kiwi</frutas>
+    <verduras preparado="blancos" calorias="15">Esparragos</verduras>
+    <verduras preparado="asados" calorias="55">Pimientos</verduras>
+    <verduras preparado="parrilla" calorias="28">Berenjenas</verduras>
+    <verduras preparado="fritos" calorias="71">Tomates</verduras>
+    <verduras preparado="fritas" calorias="234">Patatas</verduras>
+    <verduras preparado="fresco" calorias="90">Apio</verduras>
+    <carnes preparado="escalope" calorias="326">Ternera</carnes>
+    <carnes preparado="asado" calorias="575">Cordero</carnes>
+    <carnes preparado="horno" calorias="825">Cochnillo</carnes>
+    <carnes preparado="asado" calorias="844">Cerdo</carnes>
+    <carnes preparado="parrilla" calorias="120">Pollo</carnes>
+    <carnes preparado="asado" calorias="232">Pato</carnes>
+    <pescados preparado="fritos" calorias="118">Calamares</pescados>
+    <pescados preparado="en aceite" calorias="185">Anchoas</pescados>
+    <pescados preparado="plancha" calorias="92">Merluza</pescados>
+    <pescados preparado="fresca" calorias="145">Sardinas</pescados>
+    <pescados preparado="en aceite" calorias="274">Atún</pescados>
+    <pescados preparado="ahumado" calorias="210">Salmón</pescados>
+    <bebidas preparado="ron" calorias="327">Cubalibre</bebidas>
+    <bebidas preparado="negra" calorias="110">Cerveza</bebidas>
+    <bebidas preparado="solo" calorias="499">Whiski</bebidas>
+    <bebidas preparado="tinto" calorias="170">Vino</bebidas>
+    <bebidas preparado="brut" calorias="80">Cava</bebidas>
+    <bebidas preparado="con alcohol" calorias="421">Sangría</bebidas>
+    <aperitivos preparado="fritas" calorias="589">Almendras</aperitivos>
+    <aperitivos preparado="rusa" calorias="152">Ensaladilla</aperitivos>
+    <aperitivos preparado="caseras" calorias="102">Croquetas</aperitivos>
+    <aperitivos preparado="rellenas" calorias="221">Aceitunas</aperitivos>
+    <aperitivos preparado="chips" calorias="568">Patatas</aperitivos>
+    <aperitivos preparado="cocidas" calorias="102">Gambas</aperitivos>
+    <varios preparado="carne" calorias="536">Raviolis</varios>
+    <varios preparado="pollo" calorias="780">Canalones</varios>
+    <varios preparado="con leche" calorias="655">Chocolate</varios>
+    <varios preparado="vainilla" calorias="259">Helado</varios>
+    <varios preparado="básica" calorias="300">Pizza</varios>
+    <varios preparado="blanco" calorias="130">Pan</varios>
+</menú>

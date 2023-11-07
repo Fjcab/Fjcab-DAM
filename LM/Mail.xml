@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mail>
+    <destinatario nombre="" correo=""> </destinatario>
+    <remitente nombre="" correo=""> </remitente>
+    <asunto> </asunto>
+    <texto párrafo="" otros=""> </texto>
+</mail>

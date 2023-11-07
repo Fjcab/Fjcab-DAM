@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menú>
+    <legumbres>
+        <plato preparado="cocidos" calorias="1090">Garbanzos</plato>
+        <plato preparado="estofadas" calorias="690">Lentejas</plato>
+        <plato preparado="pintas" calorias="285">Alubias</plato>
+        <plato preparado="secos" calorias="346">Guisantes</plato>
+        <plato preparado="rehogadas" calorias="100">Habas</plato>
+        <plato preparado="fabada" calorias="1300">Judias</plato>
+    </legumbres>
+    <frutas>
+        <plato preparado="fresco" calorias="136">Aguacate</plato>
+        <plato preparado="fresco" calorias="84">Plátano</plato>
+        <plato preparado="fresco" calorias="58">Cerezas</plato>
+        <plato preparado="fresco" calorias="50">Piña</plato>
+        <plato preparado="fresco" calorias="70">Pera</plato>
+        <plato preparado="fresco" calorias="73">Kiwi</plato>
+    </frutas>
+    <verduras>
+        <plato preparado="blancos" calorias="15">Esparragos</plato>
+        <plato preparado="asados" calorias="55">Pimientos</plato>
+        <plato preparado="parrilla" calorias="28">Berenjenas</plato>
+        <plato preparado="fritos" calorias="71">Tomates</plato>
+        <plato preparado="fritas" calorias="234">Patatas</plato>
+        <plato preparado="fresco" calorias="90">Apio</plato>
+    </verduras>
+    <carnes>
+        <plato preparado="escalope" calorias="326">Ternera</plato>
+        <plato preparado="asado" calorias="575">Cordero</plato>
+        <plato preparado="horno" calorias="825">Cochnillo</plato>
+        <plato preparado="asado" calorias="844">Cerdo</plato>
+        <plato preparado="parrilla" calorias="120">Pollo</plato>
+        <plato preparado="asado" calorias="232">Pato</plato>
+    </carnes>
+    <pescados>   
+        <plato preparado="fritos" calorias="118">Calamares</plato>
+        <plato preparado="en aceite" calorias="185">Anchoas</plato>
+        <plato preparado="plancha" calorias="92">Merluza</plato>
+        <plato preparado="fresca" calorias="145">Sardinas</plato>
+        <plato preparado="en aceite" calorias="274">Atún</plato>
+        <plato preparado="ahumado" calorias="210">Salmón</plato>
+    </pescados>
+    <bebidas>
+        <plato preparado="ron" calorias="327">Cubalibre</plato>
+        <plato preparado="negra" calorias="110">Cerveza</plato>
+        <plato preparado="solo" calorias="499">Whiski</plato>
+        <plato preparado="tinto" calorias="170">Vino</plato>
+        <plato preparado="brut" calorias="80">Cava</plato>
+        <plato preparado="con alcohol" calorias="421">Sangría</plato>
+    </bebidas>
+    <aperitivos>
+        <plato preparado="fritas" calorias="589">Almendras</plato>
+        <plato preparado="rusa" calorias="152">Ensaladilla</plato>
+        <plato preparado="caseras" calorias="102">Croquetas</plato>
+        <plato preparado="rellenas" calorias="221">Aceitunas</plato>
+        <plato preparado="chips" calorias="568">Patatas</plato>
+        <plato preparado="cocidas" calorias="102">Gambas</plato>
+        </aperitivos>
+    <varios>
+        <plato preparado="carne" calorias="536">Raviolis</plato>
+        <plato preparado="pollo" calorias="780">Canalones</plato>
+        <plato preparado="con leche" calorias="655">Chocolate</plato>
+        <plato preparado="vainilla" calorias="259">Helado</plato>
+        <plato preparado="básica" calorias="300">Pizza</plato>
+        <plato preparado="blanco" calorias="130">Pan</plato>
+    </varios>
+</menú>
