@@ -133,6 +133,84 @@ public class Calculadora {
 					}
 				}while (continuar>2);}
 			break;
+			
+			case 3: 
+				System.out.print(num1+" * "+num2+" = ");
+				System.out.println(num1*num2);
+				System.out.println();
+				
+				do {
+				System.out.println("Introduce 1 para continuar con el resultado anterior.");
+				System.out.println("Introduce 2 para empezar desde el principio.");
+				System.out.println("Introduce 0 para salir.");
+				continuar = sc.nextInt();
+				System.out.println();
+				
+				switch (continuar) {
+					
+					case 0:
+						operacion=0;
+					break;
+				
+					case 1 :
+						System.out.println(num1*=num2);
+					break;
+				
+					case 2 :
+						System.out.println("Introduce el primer número:");
+						num1 = sc.nextDouble();
+					break;
+					
+					default:
+						System.out.println("Por favor, introduce 1, 2 o 0.");
+						System.out.println();
+					}
+				}while (continuar>2);
+			break;
+			
+			case 4: 
+				if(num2==0) {
+				System.out.println();
+				System.out.println("Opción incorrecta.");
+				System.out.println("El divisor no puede ser 0.");
+				System.out.println();
+				System.out.println(num1+" / ?");
+				System.out.println("Introduce el segundo número:");
+				num2 = sc.nextDouble();
+				}//if division
+				System.out.print(num1+" / "+num2+" = ");
+				System.out.println(num1/num2);
+				System.out.println();
+				
+				do {
+				System.out.println("Introduce 1 para continuar con el resultado anterior.");
+				System.out.println("Introduce 2 para empezar desde el principio.");
+				System.out.println("Introduce 0 para salir.");
+				continuar = sc.nextInt();
+				System.out.println();
+				
+				switch (continuar) {
+					
+					case 0:
+						operacion=0;
+					break;
+				
+					case 1 :
+						System.out.println(num1/=num2);
+					break;
+				
+					case 2 :
+						System.out.println("Introduce el primer número:");
+						num1 = sc.nextDouble();
+					break;
+					
+					default:
+						System.out.println("Por favor, introduce 1, 2 o 0.");
+						System.out.println();
+				
+					}
+				}while (continuar>2);
+			break;
 				}
 			}
 		}while(operacion!=0);
