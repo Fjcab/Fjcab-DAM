@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(180, 98, 203);
+  background-image: url(./Fotos/IMG-Caberecera-Nueva-York.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-body {
+  background-color: rgb(180, 98, 203);
+}
+.card-text {
+  color: blue;
+}
+li {
+  list-style: none;
+}

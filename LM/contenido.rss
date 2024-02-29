@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Contenidos de la asignatura LMySGE</title>
+        <link>https://www.ue.com/lm</link>
+        <description>Este rss se utiliza para mostrar todas las noticias que se publican en la asignatura</description>
+        <item>
+            <title>Tema 1: Introducción</title>
+            <description>Explicación de la asignatura</description>
+            <link>https://www.ue.com/lm/T1/n1</link>
+            <guid>1</guid>
+        </item>
+        <item>
+            <title>Tema 1: RSS</title>
+            <description>Explicación de rss</description>
+            <link>https://www.ue.com/lm/T1/n2</link>
+            <guid>2</guid>
+        </item>
+    </channel>
+    <channel>
+        <title>Contenidos de la asignatura Programación</title>
+        <link>https://www.ue.com/pr</link>
+        <description>Este rss se utiliza para mostrar todas las noticias que se publican en la asignatura</description>
+        <item>
+            <title>Tema 1: Introducción</title>
+            <description>Explicación de la asignatura</description>
+            <link>https://www.ue.com/pr/T1/n1</link>
+            <guid>1</guid>
+        </item>
+        <item>
+            <title>Tema 1: XML</title>
+            <description>Explicación de xml</description>
+            <link>https://www.ue.com/pr/T1/n2</link>
+            <guid>2</guid>
+        </item>
+    </channel>
+</rss>
