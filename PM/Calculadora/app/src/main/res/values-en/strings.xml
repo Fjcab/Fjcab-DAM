@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="reinicio">AC</string>
+    <string name="porcentaje">%</string>
+    <string name="borrar">DEL</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicacion">X</string>
+    <string name="division">/</string>
+    <string name="igual">=</string>
+    <string name="resultado">Total</string>
+    <string name="cero">0</string>
+    <string name="dobleCero">00</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="cuadrado">²</string>
+    <string name="potencia">^</string>
+    <string name="raiz">x√</string>
+    <string name="seno">sin</string>
+    <string name="coseno">cos</string>
+    <string name="tangente">tan</string>
+    <string name="factorial">!</string>
+    <string name="pi">π</string>
+    <string name="e">e</string>
+    <string name="punto">.</string>
+    <string name="grad">deg</string>
+    <string name="rad">rad</string>
+</resources>
