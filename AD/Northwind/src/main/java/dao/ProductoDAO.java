@@ -23,7 +23,7 @@ public class ProductoDAO {
     private ArrayList<Producto> productos = new ArrayList<>();
 
     public void obtenerProductos() {
-    String urlString = "https://dummyjson.com/products";
+    String urlString = "https://dummyjson.com/products?limit=194";
     URL url;
     {
         try {

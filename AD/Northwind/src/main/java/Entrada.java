@@ -17,13 +17,7 @@ public class Entrada {
         try {
             almacenDAO.ComprobaroCrearBD();
         System.out.println("La base de datos y las tablas están listas.");
-        } catch (SQLException e) {
-        System.out.println("Error");
-        System.out.println(e.getMessage());
-        System.out.println(e.getCause());
-        }
         System.out.println();
-        try {
             do{
             menu();
             opcion = sc.next();
