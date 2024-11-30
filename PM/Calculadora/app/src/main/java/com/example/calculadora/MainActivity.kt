@@ -395,7 +395,7 @@ class MainActivity : AppCompatActivity(), OnClickListener, OnCheckedChangeListen
                    binding.txtOperacion.text = operacion
                    binding.txtResultado.text = total
                }
-           }           binding.btnCos?.id->{
+           }           binding.btnTang?.id->{
                if(operacion.isNotEmpty()){
                    if (operador == null) {
                        if(binding.toggleGrad?.isChecked == true){
