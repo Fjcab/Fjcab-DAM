@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+  </head>
+
+  <!--Ejercicio 1 ---------------------------------------------------------------------------------------------->
+
+  <body class="container m-4" id="cuerpo">
+    <h3>Ejercicio 1</h3>
+    <article class="container m-4">
+      <p>Introduce un numero</p>
+      <input type="number" id="numero" />
+      <button id="boton">enviar</button>
+    </article>
+
+    <!--Ejercicio 2 ---------------------------------------------------------------------------------------------->
+
+    <h3>Ejercicio 2</h3>
+    <article
+      class="container m-4"
+      style="background-color: rgb(47, 255, 127); color: blue"
+    >
+      <h1>Conversor de Celsius a Fahrenheit en JavaScript</h1>
+      <div class="row">
+        <h3>Introduce la temperatura en Celsius</h3>
+        <input type="number" id="celsius" />
+      </div>
+      <div class="row">
+        <button class="col" id="boton-comprobar">Comprobar</button>
+        <button class="col" id="boton-borrar">Borrar</button>
+      </div>
+      <div class="col" id="resultado"></div>
+    </article>
+
+    <!--Ejercicio 3 ---------------------------------------------------------------------------------------------->
+
+    <h3>Ejercicio 3</h3>
+    <article class="container mb-4">
+      <ul style="list-style: none">
+        <li>
+          <button
+            class="btn btn-outline-dark"
+            style="background-color: red"
+            id="boton-rojo"
+          >
+            Rojo
+          </button>
+        </li>
+        <li>
+          <button
+            class="btn btn-outline-light"
+            style="background-color: blue; color: white"
+            id="boton-azul"
+          >
+            Azul
+          </button>
+        </li>
+        <li>
+          <button
+            class="btn btn-outline-dark"
+            style="background-color: yellow"
+            id="boton-amarillo"
+          >
+            Amarillo
+          </button>
+        </li>
+        <li>
+          <button
+            class="btn btn-outline-light"
+            style="background-color: black; color: white"
+            id="boton-negro"
+          >
+            Negro
+          </button>
+        </li>
+        <li>
+          <button
+            class="btn btn-outline-dark"
+            style="background-color: white"
+            id="boton-blanco"
+          >
+            Blanco
+          </button>
+        </li>
+      </ul>
+    </article>
+
+    <!--Ejercicio 4 ---------------------------------------------------------------------------------------------->
+
+    <h3>Ejercicio 4</h3>
+    <article class="container">
+      <section class="row m-4">
+        <div class="col-4">
+          <p>Nombre <input type="text" placeholder="Nombre" id="nombre" /></p>
+          <p>
+            Apellidos
+            <input type="text" placeholder="Apellidos" id="apellido" />
+          </p>
+
+          <p>
+            Localidad
+            <input type="text" placeholder="Localidad" id="localidad" />
+          </p>
+          <p>Fecha de nacimiento <input type="date" id="fecha" /></p>
+          <p>
+            Edad
+            <select id="edad1">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+            <select id="edad2">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </p>
+          <p>Correo <input type="text" placeholder="correo" id="correo" /></p>
+        </div>
+        <span class="row m-4">
+          <div class="col-2">
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="info"
+            >
+              INFO
+            </button>
+            <button class="btn btn-primary" id="reset">RESET</button>
+          </div>
+        </span>
+      </section>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modal-title"></h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Ejercicio 5 ---------------------------------------------------------------------------------------------->
+
+    <h3>Ejercicio 5</h3>
+    <article class="container m-4">
+      <div class="row">
+        <button
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          id="boton-prompt"
+        >
+          Datos
+        </button>
+      </div>
+    </article>
+
+    <script src="./JS2.js"></script>
+  </body>
+</html>

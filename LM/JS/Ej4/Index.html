@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h3>Calculadora</h3>
+    <input type="text" placeholder="valor 1" id="valor1" />
+    <select id="operacion">
+      <option value="0">Tipo de operación</option>
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">x</option>
+      <option value="/">/</option>
+      <option value="%">resto</option>
+    </select>
+    <input type="text" placeholder="valor 2" id="valor2" />
+    <div id="resultado">
+      <p>valor 1</p>
+      <p>Operación</p>
+      <p>valor2</p>
+      <p>=</p>
+      <p>resultado</p>
+    </div>
+    <button class="btn" id="btn">Reset</button>
+    <script src="./gestor.js" ;></script>
+  </body>
+</html>

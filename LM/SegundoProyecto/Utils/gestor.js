@@ -41,10 +41,10 @@ boton.addEventListener("click", () => {
       contadorVentas.textContent = `Numero de empleados en Ventas: ${listaVentas.length}`;
     }
     let listaAdministracion = listaUsuariosDatos.filter((item) => {
-      return item.includes(" Administracion ");
+      return item.includes(" Administración ");
     });
     if (listaAdministracion.length > 0) {
-      contadorAdministracion.textContent = `Numero de empleados en Administracion: ${listaAdministracion.length}`;
+      contadorAdministracion.textContent = `Numero de empleados en Administración: ${listaAdministracion.length}`;
     }
     contador.textContent = `Numero total de empleados: ${listaUsuariosDatos.length}`;
     let nodo = document.createElement("li");
