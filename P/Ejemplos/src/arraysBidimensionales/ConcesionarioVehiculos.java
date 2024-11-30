@@ -2,7 +2,7 @@ package arraysBidimensionales;
 
 import java.util.Scanner;
 
-public class concesionarioVehilucos {
+public class ConcesionarioVehiculos {
 
 	public static void main(String[] args) {
 		int opcion;
