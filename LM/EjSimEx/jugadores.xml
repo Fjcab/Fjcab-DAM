@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores>
+<jugador id="1" equipo="Paris Saint-Germain" nacionalidad="Francia" edad="25">
+<nombre>Kylian Mbappé</nombre>
+<posicion>Delantero</posicion>
+<calificacion>9.5</calificacion>
+</jugador>
+<jugador id="2" equipo="Manchester City" nacionalidad="Noruega" edad="23">
+<nombre>Erling Haaland</nombre>
+<posicion>Delantero</posicion>
+<calificacion>9.3</calificacion>
+</jugador>
+<jugador id="3" equipo="Real Madrid" nacionalidad="Brasil" edad="22">
+<nombre>Vinícius Júnior</nombre>
+<posicion>Delantero</posicion>
+<calificacion>8.9</calificacion>
+</jugador>
+<jugador id="4" equipo="Manchester City" nacionalidad="Bélgica" edad="32">
+<nombre>Kevin De Bruyne</nombre>
+<posicion>Centrocampista</posicion>
+<calificacion>9.4</calificacion>
+</jugador>
+<jugador id="5" equipo="Liverpool" nacionalidad="Egipto" edad="31">
+<nombre>Mohamed Salah</nombre>
+<posicion>Delantero</posicion>
+<calificacion>8.8</calificacion>
+</jugador>
+<jugador id="6" equipo="FC Barcelona" nacionalidad="España" edad="19">
+<nombre>Pablo Gavi</nombre>
+<posicion>Centrocampista</posicion>
+<calificacion>8.6</calificacion>
+</jugador>
+<jugador id="7" equipo="FC Barcelona" nacionalidad="Polonia" edad="35">
+<nombre>Robert Lewandowski</nombre>
+<posicion>Delantero</posicion>
+<calificacion>9.0</calificacion>
+</jugador>
+</jugadores>

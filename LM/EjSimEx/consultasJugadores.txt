@@ -1,0 +1,7 @@
+1- for $nombre in /jugadores/jugador/nombre
+   return $nombre
+2- for $equipo in /jugadores/jugador/@equipo
+   return $equipo
+3-
+4-
+5-

@@ -1,0 +1,84 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" type="text/css" href="contact-form.css" />
+  </head>
+
+  <body>
+    <!-- formulario de contacto en html y css -->
+
+    <div class="contact_form">
+      <div class="formulario">
+        <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+        <div>
+          <p>
+            <label for="nombre" class="colocar_nombre"
+              >Nombre
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" placeholder="Escribe tu nombre" id="nombre" />
+          </p>
+
+          <p>
+            <label for="email" class="colocar_email"
+              >Email
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" placeholder="Escribe tu email" id="email" />
+          </p>
+
+          <p>
+            <label for="telefone" class="colocar_telefono">Teléfono </label>
+            <input
+              type="text"
+              placeholder="Escribe tu teléfono"
+              id="telefono"
+            />
+          </p>
+
+          <p>
+            <label for="website" class="colocar_website">Sitio web </label>
+            <input
+              type="text"
+              placeholder="Escribe la URL de tu web"
+              id="web"
+            />
+          </p>
+
+          <p>
+            <label for="asunto" class="colocar_asunto"
+              >Asunto
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" placeholder="Escribe un asunto" id="asunto" />
+          </p>
+
+          <p>
+            <label for="mensaje" class="colocar_mensaje"
+              >Mensaje
+              <span class="obligatorio">*</span>
+            </label>
+            <textarea
+              placeholder="Deja aquí tu comentario..."
+              id="comentario"
+            ></textarea>
+          </p>
+
+          <button class="btn" id="enviar">
+            <p>Enviar</p>
+          </button>
+          <div id="contenido"></div>
+
+          <p class="aviso">
+            <span class="obligatorio"> * </span>los campos son obligatorios.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="gestor.js"></script>
+  </body>
+</html>

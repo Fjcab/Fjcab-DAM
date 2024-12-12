@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="utils/style.css" />
+    <title>Formulario Registro</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="text-align: center; background-color: blue">
+        <h3 style="color: white">Formulario Registro</h3>
+        <div>
+          <input type="text" placeholder="Ingrese su Nombre" id="nombre" />
+        </div>
+        <div>
+          <input type="text" placeholder="Ingrese su Apellido" id="apellido" />
+        </div>
+        <div>
+          <input type="text" placeholder="Ingrese su Correo" id="correo" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Ingrese su Contraseña"
+            id="contraseña"
+          />
+        </div>
+        <div>
+          <input type="checkbox" id="check" /><label style="color: white"
+            >Estoy de acuerdo con Terminos y Condiciones</label
+          >
+        </div>
+        <div>
+          <button class="btn btn-primary" id="boton">Registrar</button>
+        </div>
+        <div>
+          <a href="#">¿Ya tengo cuenta?</a>
+        </div>
+      </div>
+      <div style="text-align: center; color: white" id="contenedor"></div>
+    </div>
+    <script src="utils/gestor.js"></script>
+  </body>
+</html>

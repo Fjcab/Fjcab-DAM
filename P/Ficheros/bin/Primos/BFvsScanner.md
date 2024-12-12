@@ -1,0 +1,7 @@
+La elección entre Scanner y BufferedReader para leer datos de archivos en Java dependerá de las necesidades y requisitos específicos de tu aplicación. Ambas clases tienen sus ventajas y desventajas.
+
+Scanner es una clase fácil de usar que permite leer diferentes tipos de datos de entrada, incluyendo archivos, líneas de texto, flujos de entrada, entre otros. Además, Scanner es más sencillo para leer datos de tipo primitivo y también para leer cadenas de caracteres formateadas. Sin embargo, Scanner puede ser menos eficiente para leer grandes cantidades de datos ya que hace más llamadas a métodos de lectura.
+
+BufferedReader es una clase de entrada que almacena en búfer los datos leídos del archivo, lo que hace que sea más eficiente para leer grandes cantidades de datos. Además, BufferedReader es más adecuado para leer grandes archivos de texto, ya que es capaz de leer grandes bloques de datos con menos llamadas al sistema operativo. Sin embargo, BufferedReader requiere un poco más de esfuerzo para leer diferentes tipos de datos de entrada.
+
+En resumen, si necesitas leer grandes cantidades de datos de un archivo, es probable que BufferedReader sea más eficiente. Si necesitas leer diferentes tipos de datos o datos formateados, Scanner puede ser más fácil de usar. En general, ambas clases son muy útiles y es posible que desees utilizar ambas en diferentes situaciones.

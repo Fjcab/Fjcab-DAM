@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogoPeliculas>
+<pelicula id="1" idioma="Inglés" duracion="175" pais="EEUU">
+<titulo>El Padrino</titulo>
+<director>Francis Ford Coppola</director>
+<genero>Crimen, Drama</genero>
+<anio>1972</anio>
+<calificacion>9.2</calificacion>
+</pelicula>
+<pelicula id="2" idioma="Inglés" duracion="152" pais="EEUU">
+<titulo>El Caballero de la Noche</titulo>
+<director>Christopher Nolan</director>
+<genero>Acción, Crimen, Drama</genero>
+<anio>2008</anio>
+<calificacion>9.0</calificacion>
+</pelicula>
+<pelicula id="3" idioma="Inglés" duracion="195" pais="EEUU">
+<titulo>La Lista de Schindler</titulo>
+<director>Steven Spielberg</director>
+<genero>Biografía, Drama, Historia</genero>
+<anio>1993</anio>
+<calificacion>8.9</calificacion>
+</pelicula>
+<pelicula id="4" idioma="Inglés" duracion="201" pais="Nueva Zelanda">
+<titulo>El Señor de los Anillos: El Retorno del Rey</titulo>
+<director>Peter Jackson</director>
+<genero>Aventura, Drama, Fantasía</genero>
+<anio>2003</anio>
+<calificacion>8.9</calificacion>
+</pelicula>
+<pelicula id="5" idioma="Inglés" duracion="154" pais="EEUU">
+<titulo>Pulp Fiction</titulo>
+<director>Quentin Tarantino</director>
+<genero>Crimen, Drama</genero>
+<anio>1994</anio>
+<calificacion>8.9</calificacion>
+</pelicula>
+</catalogoPeliculas>

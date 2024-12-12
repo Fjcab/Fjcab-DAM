@@ -1,0 +1,6 @@
+1-/catalogoPeliculas/pelicula[@duracion>"150"]
+2-/catalogoPeliculas/pelicula[@idioma="Inglés"]/titulo
+3-/catalogoPeliculas/pelicula[titulo="El caballero osculo"]
+/catalogoPeliculas/pelicula[titulo="El Caballero de la Noche"]
+4-/catalogoPeliculas/pelicula[director="Quentin Tarantino"]
+5-/catalogoPeliculas/pelicula[calificacion>"9" and @idioma="Inglés"]

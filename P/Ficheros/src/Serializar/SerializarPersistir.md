@@ -1,0 +1,3 @@
+En Java, la **serialización** es el proceso de convertir un objeto Java en una secuencia de bytes para que pueda ser almacenado en un archivo, transferido a través de una red o guardado en la memoria para su posterior uso. La serialización se utiliza a menudo para la persistencia de objetos, es decir, para guardar el estado de un objeto para su posterior recuperación.
+
+La **persistencia**, por otro lado, se refiere al almacenamiento permanente de objetos o datos en una ubicación persistente, como un archivo en el sistema de archivos, una base de datos o una memoria no volátil, para que puedan ser recuperados y utilizados en el futuro. En Java, la serialización se utiliza a menudo para la persistencia de objetos.
