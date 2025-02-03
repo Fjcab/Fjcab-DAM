@@ -1,0 +1,48 @@
+DROP DATABASE IF EXISTS librerias;
+CREATE DATABASE librerias;
+USE librerias;
+CREATE TABLE autores (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    apellidos VARCHAR(255) NOT NULL,
+    fecha_nacimiento DATE NOT NULL,
+    CONSTRAINT uk_autor UNIQUE (nombre, apellidos, fecha_nacimiento)
+);
+
+CREATE TABLE editoriales (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255) NOT NULL,
+    CONSTRAINT uk_editorial UNIQUE (nombre, direccion)
+);
+
+CREATE TABLE libros (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(255) NOT NULL,
+    precio DOUBLE NOT NULL,
+    id_editorial INT NOT NULL,
+    id_autor INT NOT NULL,
+    CONSTRAINT libros_editoriales_FK FOREIGN KEY (id_editorial)
+        REFERENCES editoriales(id),
+    CONSTRAINT libros_autores_FK FOREIGN KEY (id_autor)
+        REFERENCES autores(id),
+        CONSTRAINT uk_libros UNIQUE (titulo, id_editorial, id_autor)
+       );
+
+CREATE TABLE librerias (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    duenyo VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE librerias_libros (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_libreria INT NOT NULL,
+    id_libro INT NOT NULL,
+    CONSTRAINT librerias_libros_librerias_FK FOREIGN KEY (id_libreria)
+        REFERENCES librerias(id),
+    CONSTRAINT librerias_libros_libros_FK FOREIGN KEY (id_libro)
+        REFERENCES libros(id),
+    CONSTRAINT uk_libreria_libro UNIQUE (id_libreria, id_libro)
+);

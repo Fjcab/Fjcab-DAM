@@ -15,7 +15,10 @@ import kotlin.math.sin
 import kotlin.math.tan
 
 class MainActivity : AppCompatActivity(), OnClickListener, OnCheckedChangeListener{
+
     private lateinit var binding: ActivityMainBinding
+
+
     private var operacion = ""
     private var total = ""
     private var operador: String? = null
