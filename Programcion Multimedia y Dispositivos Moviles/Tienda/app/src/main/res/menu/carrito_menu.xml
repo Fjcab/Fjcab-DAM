@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuConfirmar"
+        android:title="@string/confirmar_compra"
+        android:icon="@drawable/purchase_order"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuVaciar"
+        android:title="@string/vaciar_carrito"
+        android:icon="@drawable/basket"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuVolver"
+        android:title="@string/volver"
+        android:icon="@drawable/left_arrow"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuSalir"
+        android:title="@string/salir"
+        android:icon="@drawable/exit"
+        app:showAsAction="ifRoom"/>
+</menu>

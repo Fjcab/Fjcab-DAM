@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Magasin</string>
+    <string name="salir">Quitter</string>
+    <string name="comprar">Acheter</string>
+    <string name="confirmar_compra">Confirmer l\'achat</string>
+    <string name="vaciar_carrito">Vider le panier</string>
+    <string name="volver">Retour</string>
+    <string name="producto_eliminado">%1$s supprimé</string>
+    <string name="producto_insertado">%1$s ajouté au panier</string>
+    <string name="mensaje_total">Total: %1$s €</string>
+    <string name="compra_realizada">Félicitations, achat de %1$s effectué</string>
+    <string name="confirmar_vaciado">Êtes-vous sûr de vouloir vider le panier ?</string>
+    <string name="si">Oui</string>
+    <string name="no">Non</string>
+    <string name="carrito_vaciado">Panier vidé</string>
+    <string name="categoria_ninguno">Aucun</string>
+</resources>

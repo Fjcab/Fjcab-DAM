@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Store</string>
+    <string name="salir">Exit</string>
+    <string name="comprar">Buy</string>
+    <string name="confirmar_compra">Confirm purchase</string>
+    <string name="vaciar_carrito">Empty cart</string>
+    <string name="volver">Back</string>
+    <string name="producto_eliminado">%1$s removed</string>
+    <string name="producto_insertado">%1$s added to cart</string>
+    <string name="mensaje_total">Total: %1$s €</string>
+    <string name="compra_realizada">Congratulations, purchase of %1$s completed</string>
+    <string name="confirmar_vaciado">Are you sure you want to empty the cart?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="carrito_vaciado">Cart emptied</string>
+    <string name="categoria_ninguno">None</string>
+</resources>

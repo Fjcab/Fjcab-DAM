@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Laden</string>
+    <string name="salir">Beenden</string>
+    <string name="comprar">Kaufen</string>
+    <string name="confirmar_compra">Kauf bestätigen</string>
+    <string name="vaciar_carrito">Warenkorb leeren</string>
+    <string name="volver">Zurück</string>
+    <string name="producto_eliminado">%1$s entfernt</string>
+    <string name="producto_insertado">%1$s zum Warenkorb hinzugefügt</string>
+    <string name="mensaje_total">Gesamt: %1$s €</string>
+    <string name="compra_realizada">Herzlichen Glückwunsch, Kauf im Wert von %1$s abgeschlossen</string>
+    <string name="confirmar_vaciado">Sind Sie sicher, dass Sie den Warenkorb leeren möchten?</string>
+    <string name="si">Ja</string>
+    <string name="no">Nein</string>
+    <string name="carrito_vaciado">Warenkorb geleert</string>
+    <string name="categoria_ninguno">Keiner</string>
+</resources>

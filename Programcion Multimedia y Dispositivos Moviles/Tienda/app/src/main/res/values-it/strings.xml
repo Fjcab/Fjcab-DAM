@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Negozio</string>
+    <string name="salir">Uscire</string>
+    <string name="comprar">Acquistare</string>
+    <string name="confirmar_compra">Conferma acquisto</string>
+    <string name="vaciar_carrito">Svuota carrello</string>
+    <string name="volver">Indietro</string>
+    <string name="producto_eliminado">%1$s eliminato</string>
+    <string name="producto_insertado">%1$s aggiunto al carrello</string>
+    <string name="mensaje_total">Totale: %1$s €</string>
+    <string name="compra_realizada">Congratulazioni, acquisto di %1$s completato</string>
+    <string name="confirmar_vaciado">Sei sicuro di voler svuotare il carrello?</string>
+    <string name="si">Sì</string>
+    <string name="no">No</string>
+    <string name="carrito_vaciado">Carrello svuotato</string>
+    <string name="categoria_ninguno">Nessuno</string>
+</resources>
