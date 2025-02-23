@@ -1,0 +1,46 @@
+-- Eliminar la base de datos si ya existe
+DROP DATABASE IF EXISTS ligas_db;
+CREATE DATABASE ligas_db;
+USE ligas_db;
+
+-- Crear la tabla de Ligas
+CREATE TABLE Ligas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_liga VARCHAR(100) NOT NULL UNIQUE,
+    fecha_inicio DATE DEFAULT NULL,
+    fecha_fin DATE DEFAULT NULL
+);
+
+-- Crear la tabla de Equipos
+CREATE TABLE Equipos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_equipo VARCHAR(100) NOT NULL UNIQUE,
+    ciudad VARCHAR(100) DEFAULT NULL,
+    id_liga INT DEFAULT NULL,
+    CONSTRAINT equipos_ligas_FK FOREIGN KEY (id_liga) REFERENCES Ligas(id) ON DELETE SET NULL
+);
+
+-- Crear la tabla de Jugadores
+CREATE TABLE Jugadores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    posicion VARCHAR(50) NOT NULL,
+    valor_mercado INT DEFAULT NULL,
+    goles INT DEFAULT NULL,
+    nacionalidad VARCHAR(100) DEFAULT NULL,
+    id_equipo INT DEFAULT NULL,
+    CONSTRAINT jugadores_equipos_FK FOREIGN KEY (id_equipo) REFERENCES Equipos(id) ON DELETE SET NULL
+);
+
+-- Crear la tabla de Entrenadores
+CREATE TABLE Entrenadores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    calificacion DECIMAL(5,2) DEFAULT NULL,
+    titulos INT DEFAULT NULL,
+    id_equipo INT DEFAULT NULL,
+    CONSTRAINT entrenadores_equipos_FK FOREIGN KEY (id_equipo) REFERENCES Equipos(id) ON DELETE SET NULL,
+    CONSTRAINT unique_entrenador_equipo UNIQUE (id_equipo)
+);
+
+

@@ -1,0 +1,114 @@
+-- Eliminar la base de datos si ya existe
+DROP DATABASE IF EXISTS ligas_db;
+CREATE DATABASE ligas_db;
+USE ligas_db;
+
+-- Crear la tabla de Ligas
+CREATE TABLE Ligas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_liga VARCHAR(100) NOT NULL UNIQUE,
+    fecha_inicio DATE DEFAULT NULL,
+    fecha_fin DATE DEFAULT NULL
+);
+
+-- Crear la tabla de Equipos
+CREATE TABLE Equipos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_equipo VARCHAR(100) NOT NULL UNIQUE,
+    ciudad VARCHAR(100) DEFAULT NULL,
+    id_liga INT DEFAULT NULL,
+    CONSTRAINT equipos_ligas_FK FOREIGN KEY (id_liga) REFERENCES Ligas(id) ON DELETE SET NULL
+);
+
+-- Crear la tabla de Jugadores
+CREATE TABLE Jugadores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    posicion VARCHAR(50) NOT NULL,
+    valor_mercado INT DEFAULT NULL,
+    goles INT DEFAULT NULL,
+    nacionalidad VARCHAR(100) DEFAULT NULL,
+    id_equipo INT DEFAULT NULL,
+    CONSTRAINT jugadores_equipos_FK FOREIGN KEY (id_equipo) REFERENCES Equipos(id) ON DELETE SET NULL
+);
+
+-- Crear la tabla de Entrenadores
+CREATE TABLE Entrenadores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    calificacion DECIMAL(5,2) DEFAULT NULL,
+    titulos INT DEFAULT NULL,
+    id_equipo INT DEFAULT NULL,
+    CONSTRAINT entrenadores_equipos_FK FOREIGN KEY (id_equipo) REFERENCES Equipos(id) ON DELETE SET NULL
+);
+
+-- Insertar datos en la tabla Ligas (se añaden fechas de finalización)
+INSERT INTO Ligas (nombre_liga, fecha_inicio, fecha_fin) VALUES
+('La Liga', '1929-04-10', '2023-05-21'),
+('Premier League', '1992-08-15', '2023-05-28'),
+('Bundesliga', '1963-08-24', '2023-05-20'),
+('Serie A', '1898-09-08', '2023-05-30');
+
+-- Insertar datos en la tabla Equipos
+INSERT INTO Equipos (nombre_equipo, ciudad, id_liga) VALUES
+('Real Madrid', 'Madrid', 1),
+('Barcelona', 'Barcelona', 1),
+('Manchester United', 'Manchester', 2),
+('Liverpool', 'Liverpool', 2),
+('Bayern Munich', 'Munich', 3),
+('Juventus', 'Turín', 4),
+('AC Milan', 'Milan', 4);
+
+-- Insertar datos en la tabla Jugadores con posiciones y gentilicios
+
+-- Jugadores del Real Madrid (id_equipo = 1)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Thibaut Courtois', 'Portero (GK)', 70, 0, 'belga', 1),
+('Luka Modrić', 'Mediocentro ofensivo (CAM)', 80, 10, 'croata', 1),
+('Karim Benzema', 'Delantero centro (ST)', 90, 20, 'francés', 1);
+
+-- Jugadores del Barcelona (id_equipo = 2)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Marc-André ter Stegen', 'Portero (GK)', 60, 0, 'alemán', 2),
+('Sergio Busquets', 'Mediocentro defensivo (CDM)', 50, 2, 'español', 2),
+('Lionel Messi', 'Segundo delantero (CF)', 100, 30, 'argentino', 2);
+
+-- Jugadores del Manchester United (id_equipo = 3)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('David de Gea', 'Portero (GK)', 60, 0, 'español', 3),
+('Bruno Fernandes', 'Mediocentro ofensivo (CAM)', 70, 15, 'portugués', 3),
+('Marcus Rashford', 'Delantero centro (ST)', 80, 25, 'inglés', 3);
+
+-- Jugadores del Liverpool (id_equipo = 4)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Alisson Becker', 'Portero (GK)', 65, 0, 'brasileño', 4),
+('Jordan Henderson', 'Mediocentro defensivo (CDM)', 50, 5, 'inglés', 4),
+('Mohamed Salah', 'Extremo derecho (RW)', 90, 22, 'egipcio', 4);
+
+-- Jugadores del Bayern Munich (id_equipo = 5)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Manuel Neuer', 'Portero (GK)', 70, 0, 'alemán', 5),
+('Joshua Kimmich', 'Mediocentro defensivo (CDM)', 85, 8, 'alemán', 5),
+('Robert Lewandowski', 'Delantero centro (ST)', 95, 30, 'polaco', 5);
+
+-- Jugadores de la Juventus (id_equipo = 6)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Wojciech Szczęsny', 'Portero (GK)', 60, 0, 'polaco', 6),
+('Adrien Rabiot', 'Mediocentro ofensivo (CAM)', 55, 4, 'francés', 6),
+('Paulo Dybala', 'Segundo delantero (CF)', 90, 20, 'argentino', 6);
+
+-- Jugadores del AC Milan (id_equipo = 7)
+INSERT INTO Jugadores (nombre, posicion, valor_mercado, goles, nacionalidad, id_equipo) VALUES
+('Gianluigi Donnarumma', 'Portero (GK)', 80, 0, 'italiano', 7),
+('Franck Kessié', 'Mediocentro defensivo (CDM)', 65, 3, 'marfileño', 7),
+('Zlatan Ibrahimović', 'Delantero centro (ST)', 85, 25, 'sueco', 7);
+
+-- Insertar datos en la tabla Entrenadores
+INSERT INTO Entrenadores (nombre, calificacion, titulos, id_equipo) VALUES
+('Carlo Ancelotti', 95.00, 10, 1),
+('Xavi Hernández', 92.00, 8, 2),
+('Ole Gunnar Solskjær', 88.00, 6, 3),
+('Jürgen Klopp', 94.00, 7, 4),
+('Hans-Dieter Flick', 90.00, 9, 5),
+('Massimiliano Allegri', 91.00, 8, 6),
+('Stefano Pioli', 89.00, 5, 7);
