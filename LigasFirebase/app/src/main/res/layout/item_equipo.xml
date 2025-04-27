@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="@color/verde_futbol"
+    android:gravity="center"
+    app:cardCornerRadius="50dp"
+    app:cardElevation="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/verde_futbol">
+        <ImageView
+            android:id="@+id/imagenEquipo"
+            android:src="@drawable/equipos"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/nombreEquipo"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liga"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFavoritos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorito"
+            app:icon="@drawable/estrella"
+            android:textColor="@color/amarillo_favorito"
+            android:backgroundTint="@color/azul_dinamico"
+            app:iconTint="@color/amarillo_favorito"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView >

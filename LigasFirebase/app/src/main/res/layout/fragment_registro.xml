@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="24dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ligas"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Contenedor campos -->
+    <LinearLayout
+        android:id="@+id/layoutInputs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textRegistro">
+
+        <!-- Correo electrónico -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Contraseña -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editContrasenya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Confirmar contraseña -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editConfirmarContrasenya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar Contraseña"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- Botón Registrar -->
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verde_futbol"
+        android:text="Registrar"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutInputs" />
+
+    <!-- Botón Volver -->
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
+        android:text="Volver"
+        android:textColor="@color/verde_futbol"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRegistrar" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

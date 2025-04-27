@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LigasFirebase</string>
+    <string name="introduce_usuario_mensaje">Introduce un usuario</string>
+    <string name="introduce_contrasenya_mensaje">Introduce una contraseña</string>
+    <string name="confirma_contrasenya">Confirma la contraseña</string>
+    <string name="contrasenyas_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="rellena_campos">Por favor, rellena todos los campos</string>
+    <string name="corrige_errores">Por favor, corrige los errores</string>
+    <string name="usuario_existe">El usuario \'%1$s\' ya existe</string>
+    <string name="usuario_registrado">Usuario registrado correctamente</string>
+    <string name="contrasenya_debil">La contraseña es demasiado débil. Asegúrate de que tenga al menos 6 caracteres, incluyendo letras y números</string>
+    <string name="email_invalido">El correo no es válido</string>
+    <string name="error_registrar">Error al registrar usuario</string>
+    <string name="error_red">Error de conexión. Verifica tu conexión a Internet.</string>
+    <string name="error_credenciales">Correo o contraseña incorrectos</string>
+    <string name="error_login">Error al iniciar sesión</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "878467531729",
+    "firebase_url": "https://ligasfav-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ligasfav",
+    "storage_bucket": "ligasfav.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878467531729:android:319ff3ccd97bf4ff1b56f0",
+        "android_client_info": {
+          "package_name": "com.example.ligasfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZyzswvuwCYA4D1G8pWZZYW2uU52PmcD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
